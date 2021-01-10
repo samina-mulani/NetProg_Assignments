@@ -3,7 +3,7 @@
 * Compile.
         
         gcc -o tftp_server tftpserver.c
-* Run the executable with port number passed as argument.
+* Run the executable with any port number passed as argument. (Below, 8089 is just an example. Any unused port can be entered to avoid error).
         
         ./tftp_server 8089
 * On a different terminal, run the tftp client (install it if not already present on your Linux machine).
